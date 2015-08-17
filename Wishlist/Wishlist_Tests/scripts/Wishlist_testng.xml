@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Wishlist API Tests" verbose="1" >
+    <!--listeners>
+        <listener class-name="com.flipkart.website.testng.Reporter" />
+    </listeners-->
+    <test name="Wishlist Test">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="tests.UserServices.Wishlist.Wishlist_Tests.src.WishlistTest"></class>
+        </classes>
+    </test>
+</suite>
